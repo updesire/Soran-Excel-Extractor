@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +217,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+=======
+.DS_Store
+.AppleDouble
+.LSOverride
+
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+env/
+
+source/*
+!source/.gitkeep
+
+output/*
+!output/.gitkeep
+
+extracted_images/
+*.log
+
+*.xlsx
+*.csv
+
+*.dmg
+*.app
+dist/
+>>>>>>> 44b1966 (Initial release: Soran Excel Extractor)
